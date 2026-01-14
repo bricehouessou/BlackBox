@@ -1,0 +1,41 @@
+# Build artifacts
+*.o
+*/**.o
+build/
+
+# Executables
+blackbox
+*.exe
+
+# Binary dumps and logs
+crash.bin
+*.bin
+*.log
+
+# Temporary/backup files
+*~
+*.swp
+*.bak
+
+# Coverage and profiling
+*.gcda
+*.gcno
+
+# Editor and IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Core dumps
+core
+
+# Tags
+tags
+
+simulation.o
+main.o
+b_noire.o
+fichier.o
