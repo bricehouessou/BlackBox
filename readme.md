@@ -49,6 +49,19 @@ make
 make clean
 ```
 
+### Si vous n'avez pas make, utilisez gcc
+```bash
+ gcc -Wall -Wextra -g -o blackbox main.c b_noire.c simulation.c fichier.c
+```
+
+### Exécution
+```bash
+./blackbox
+```
+
+
+
+
 ---
 
 
